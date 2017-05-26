@@ -1,7 +1,11 @@
 package com.grails.practical
 
 import grails.validation.Validateable;
-
+/**
+ * 
+ * @author Dipak k
+ *
+ */
 @Validateable
 class Product implements Serializable{
 	String barcode
